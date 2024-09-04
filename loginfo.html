@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="icon" type="image/x-icon" href="a_f.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .login input[type="text"]{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+        }
+        .login h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2>Login Form</h2>
+        <form action="index.html">
+            <label for="mobile">Mobile Number</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Enter Mobile Number">
+            <label for="otp">OTP</label>
+            <input type="text" id="otp" name="otp" placeholder="Enter OTP">
+            <input type="submit" value="Sign in">
+        </form>
+    </div>
+</body>
+</html>
